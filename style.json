@@ -1,0 +1,21 @@
+{
+  "version": 8,
+  "name": "Fires",
+  "metadata": {
+    "maputnik:renderer": "mbgljs",
+    "openmaptiles:version": "3.x"
+  },
+  "sources": {
+    "floodpoints": {
+      "type": "geojson",
+      "data": "https://rawcdn.githack.com/YonatanShaham/Fires/589c3171aa62a5695bb53452320ca87b0a1ffd7c/Fires%20WGS84.geojson?fbclid=IwAR2XSDCW5HqJwvWUV1NVynOwLI7n2H4EsM6YR9UZiHbWIkMZdrOnJGIE48I"
+    }
+  },
+  "layers": [
+    {
+      "id": "Fires",
+      "type": "fill",
+    }
+  ],
+  "id": "Fires"
+}
